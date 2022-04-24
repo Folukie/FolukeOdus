@@ -46,41 +46,41 @@ const About = () => {
           <h4 className="text-primary text-3xl text-center py-8 sm:text-xl">
             TECH STACKS
           </h4>
-          <div className="grid grid-cols-6 gap-x-2 gap-y-10 justify-center sm:grid-cols-5 sm:py-4">
+          <div className="grid grid-cols-6 gap-x-2 gap-y-10 justify-center sm:grid-cols-5 sm:py-4 sm:gap-y-14">
             <Icon>
-              <SiHtml5 size="2x" />
+              <SiHtml5 size="2xl" />
             </Icon>
             <Icon>
-              <SiCss3 size="2x" />
+              <SiCss3 size="2xl" />
             </Icon>
             <Icon>
-              <SiJavascript size="2x" />
+              <SiJavascript size="2xl" />
             </Icon>
             <Icon>
-              <SiReact size="2x" />
+              <SiReact size="2xl" />
             </Icon>
             <Icon>
-              <SiGithub size="2x" />
-            </Icon>
-
-            <Icon>
-              <SiNextdotjs size="2x" />
+              <SiGithub size="2xl" />
             </Icon>
 
             <Icon>
-              <SiTailwindcss size="2x" />
+              <SiNextdotjs size="2xl" />
+            </Icon>
+
+            <Icon>
+              <SiTailwindcss size="2xl" />
             </Icon>
             <Icon>
-              <DiSass size="2x" />
+              <DiSass size="2xl" />
             </Icon>
             <Icon>
-              <SiBootstrap size="2x" />
+              <SiBootstrap size="2xl" />
             </Icon>
             <Icon>
-              <SiPostman size="2x" />
+              <SiPostman size="2xl" />
             </Icon>
             <Icon>
-              <SiFigma size="2x" />
+              <SiFigma size="2xl" />
             </Icon>
           </div>
         </Reveal>
