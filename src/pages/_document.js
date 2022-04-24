@@ -12,17 +12,17 @@ export default function Document() {
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover.css"
         ></link>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
         <link
-          href="https://unpkg.com/aos@2.3.1/dist/aos.css"
+          href="https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap"
           rel="stylesheet"
-        ></link>
+        />
       </Head>
       <body>
         <Main />
         <NextScript />
-        <script>AOS.init();</script>
       </body>
     </Html>
   );
-  
 }

@@ -4,7 +4,7 @@ import { Children } from "react/cjs/react.production.min";
 export const SolidButton = ({ text, href }) => {
   return (
     <a
-      className="bg-primary border-primary border-2 rounded-full text-black px-10 py-4 text-xl cursor-pointer uppercase hover:opacity-90 transition-all sm:text-lg sm:px-5 sm:py-3" 
+      className="bg-primary border-primary border-2 rounded-full text-black px-10 py-4 text-xl cursor-pointer uppercase hover:opacity-90 transition-all sm:text-base sm:px-5 sm:py-3" 
       href={href}
     >
       {text}
@@ -15,7 +15,7 @@ export const SolidButton = ({ text, href }) => {
 export const LightButton = ({ text, href }) => {
   return (
     <a
-      className="border-primary border-2 rounded-full text-primary  px-10 py-4 text-xl cursor-pointer uppercase hover:bg-primary hover:text-black transition-all  sm:text-lg sm:px-5 sm:py-3"
+      className="border-primary border-2 rounded-full text-primary  px-10 py-4 text-xl cursor-pointer uppercase hover:bg-primary hover:text-black transition-all sm:text-base sm:px-5 sm:py-3"
       href={href}
       target="_blank"
       rel="noreferrer noopener"

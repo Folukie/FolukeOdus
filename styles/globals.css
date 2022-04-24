@@ -20,7 +20,8 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: 'averta';
+  /* font-family: 'averta'; */
+  font-family: 'Sora', sans-serif;
   font-weight: 400;
   scroll-behavior: smooth;
   -webkit-font-smoothing: antialiased;
