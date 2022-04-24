@@ -22,12 +22,12 @@ const Project = () => {
                 <div className="h-80 relative group cursor-pointer overflow-hidden ">
                   <img alt={project.title} src={project.image} className="sm:h-full object-contain"/>
 
-                  <div className="bg-secondary absolute bottom-0 translate-y-64 h-full w-full group-hover:-translate-y-0 group-hover:transition-all transform duration-1000 py-5 px-7 flex flex-col gap-y-6 sm:gap-y-2 sm:translate-y-44" >
+                  <div className="bg-secondary absolute bottom-0 translate-y-64 h-full w-full group-hover:-translate-y-0 group-hover:transition-all transform duration-1000 py-5 px-7 flex flex-col gap-y-6 sm:gap-y-2  sm:translate-y-44 sm:group-hover:translate-y-44" >
                     <h5 className="text-2xl uppercase text-primary sm:text-lg">
                       {project.title}
                     </h5>
 
-                    <p className="text-lg sm:text-sm">{project.description}</p>
+                    <p className="text-lg sm:text-sm sm:hidden">{project.description}</p>
                     <div className="flex gap-x-4 sm:pt-2">
                       <LightButton text="Live Site" href={project.live_site} />
                       <SolidButton
