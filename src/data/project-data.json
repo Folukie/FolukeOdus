@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "title": "Women's History Museum",
+        "description": "Inspired by the lives of historical women between the 17th and 19th centuries, Our stories depict women from all the 10 provinces of Zambia in celebration and honour.",
+        "live_site": "https://whm.vercel.app/",
+        "source_code": "https://github.com/Folukie/WHM",
+        "image": "/images/whm-image.png"
+    },
+    {
+        "id": 2,
+        "title": "Pexels Clone",
+        "description": "The best free stock photos, royalty free images & videos shared by creators.",
+        "live_site": "https://pexels-clone-peach.vercel.app/",
+        "source_code": "https://github.com/Folukie/Pexels-clone",
+        "image": "/images/pexels.jpeg"
+
+    },
+    {
+        "id": 3,
+        "title": "Fliqpay Payout",
+        "description": "Make a one time payout",
+        "live_site": " https://fliqpay-payout.vercel.app/ ",
+        "source_code": "https://github.com/Folukie/fliqpay-payout",
+        "image": "/images/fliqpay.jpeg"
+
+     
+    },
+    {
+        "id": 4,
+        "title": "Missing report app",
+        "description": "Web app for creating reports of missing people.",
+        "live_site": "  https://missingreport.netlify.app/",
+        "source_code": "https://github.com/Folukie/testApp",
+        "image": "/images/missing-report.jpeg"
+
+    },
+    {
+        "id": 5,
+        "title": "Norwegian Clone",
+        "description": "Rainwear that combines cutting-edge technology with the finest tailoring. A conceptual approach to men's tailoring.",
+        "live_site": " https://norwegian-clone.netlify.app/ ",
+        "source_code": "https://github.com/Folukie/Norwegian-Clone",
+        "image": "/images/norwegian.jpeg"
+
+    },
+    {
+        "id": 6,
+        "title": "Patricia Wallets",
+        "description": "Patricia wallet",
+        "live_site": "    https://patricia-wallet.netlify.app/wallet ",
+        "source_code": "https://github.com/Folukie/Pexels-clone",
+        "image": "/images/patricia.jpeg"
+
+      
+    }
+  
+]
