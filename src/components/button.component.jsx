@@ -40,7 +40,7 @@ export const IconLink = ({ icon, href }) => {
 
 export const Icon = ({ children }) => {
   return (
-    <div className="h-12 text-secondary hover:text-primary cursor-pointer hvr-float sm:h-2">
+    <div className="h-12 text-secondary hover:text-primary cursor-pointer hvr-float sm:h-2 sm:w-8">
       {children}
     </div>
   );

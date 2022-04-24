@@ -18,7 +18,7 @@ import Reveal from 'react-reveal/Reveal';
 
 const About = () => {
   return (
-    <section className="bg-lightDark h-screen pt-24 px-24 sm:px-0 sm:pt-18 sm:h-full" id="about">
+    <section className="bg-lightDark h-screen pt-24 px-24 sm:px-0 sm:pt-18 sm:h-full sm:pb-10" id="about">
      <Reveal effect="fadeInUp">
 
       <h2 className="text-primary text-5xl text-center py-8 sm:py-4 sm:text-3xl">ABOUT ME</h2>
