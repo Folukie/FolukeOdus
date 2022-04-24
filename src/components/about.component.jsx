@@ -46,7 +46,7 @@ const About = () => {
           <h4 className="text-primary text-3xl text-center py-8 sm:text-xl">
             TECH STACKS
           </h4>
-          <div className="grid grid-cols-6 gap-x-2 gap-y-10 justify-center sm:grid-cols-5 sm:py-4 sm:gap-y-14">
+          <div className="grid grid-cols-6 gap-x-2 gap-y-10 justify-center sm:grid-cols-5 sm:py-4 sm:gap-y-20">
             <Icon>
               <SiHtml5 size="2xl" />
             </Icon>
