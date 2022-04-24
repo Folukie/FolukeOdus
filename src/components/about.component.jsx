@@ -21,14 +21,14 @@ const About = () => {
     <section className="bg-lightDark h-screen pt-24 px-24 sm:px-0 sm:pt-18 sm:h-full" id="about">
      <Reveal effect="fadeInUp">
 
-      <h2 className="text-primary text-5xl text-center py-8 sm:py-4">ABOUT ME</h2>
+      <h2 className="text-primary text-5xl text-center py-8 sm:py-4 sm:text-3xl">ABOUT ME</h2>
       </Reveal>
 
       <div className="grid grid-cols-2 gap-20 px-20 py-8 sm:grid-cols-1 sm:px-2">
      <div>
      <Reveal effect="fadeInUp">
-          <h4 className="text-primary text-3xl text-center py-5 sm:py-2">BIO</h4>
-          <p className="text-secondary pt-5 text-xl leading-7 sm:text-center">
+          <h4 className="text-primary text-3xl text-center py-5 sm:py-2 sm:text-xl">BIO</h4>
+          <p className="text-secondary pt-5 text-xl leading-7 sm:text-center sm:text-base">
             I am a Front-End Developer who genuinely enjoys creating responsive
             and interactive websites and applications. <br /> <br /> I am
             passionate about responsive, seamless user experience and creative
@@ -43,7 +43,7 @@ const About = () => {
 
       <div>
       <Reveal effect="fadeInUp">
-          <h4 className="text-primary text-3xl text-center py-8">
+          <h4 className="text-primary text-3xl text-center py-8 sm:text-xl">
             TECH STACKS
           </h4>
           <div className="grid grid-cols-6 gap-x-2 gap-y-10 justify-center sm:grid-cols-5 sm:py-4">

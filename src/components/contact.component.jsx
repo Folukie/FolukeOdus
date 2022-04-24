@@ -10,7 +10,7 @@ const Contact = () => {
   return (
     <section className="bg-lightDark h-screen pt-24 px-24 sm:px-2" id="contact">
       <Reveal effect="fadeInUp">
-        <h2 className="text-primary text-5xl text-center py-8">CONTACT</h2>
+        <h2 className="text-primary text-5xl text-center py-8 sm:text-3xl">CONTACT</h2>
 
         <form className="px-24 py-8 grid gap-y-8 sm:px-2" onSubmit={handleSubmit}>
           <input

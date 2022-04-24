@@ -13,13 +13,13 @@ const Project = () => {
   return (
     <section id="project" className="bg-black h-full py-24 px-24 sm:px-4">
       <Reveal effect="fadeInUp">
-        <h2 className="text-primary text-5xl text-center py-8">PROJECTS</h2>
+        <h2 className="text-primary text-5xl text-center py-8 sm:text-3xl">PROJECTS</h2>
         </Reveal>
         <div className="grid grid-cols-2 gap-24 mt-12 sm:grid-cols-1">
           {projectData.map((project) => (
             <div key={project.id}>
               <Reveal effect="fadeInUp">
-                <div className="h-80 relative group cursor-pointer overflow-hidden sm:h-full">
+                <div className="h-80 relative group cursor-pointer overflow-hidden ">
                   <img alt={project.title} src={project.image} className="sm:h-full object-contain"/>
 
                   <div className="bg-secondary absolute bottom-0 translate-y-64 h-full w-full group-hover:-translate-y-0 group-hover:transition-all transform duration-1000 py-5 px-7 flex flex-col gap-y-6 sm:gap-y-2 sm:translate-y-44" >

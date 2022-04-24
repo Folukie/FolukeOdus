@@ -8,7 +8,7 @@ import Jump from 'react-reveal/Jump';
 
 const Main = () => {
   return (
-    <section className="bg-black h-full px-24 pt-24 pb-72 relative sm:px-4 sm:pb-80">
+    <section className="bg-black h-full px-24 pt-24 pb-72 relative sm:px-4 sm:pb-80 sm:h-screen">
      <Jump>
      <h1 className="text-primary text-8xl sm:text-6xl">Foluke Odusanya</h1>
       <h5 className="text-secondary text-5xl py-12 sm:text-3xl">Front-End Developer</h5>
