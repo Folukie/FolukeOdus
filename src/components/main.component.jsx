@@ -15,7 +15,7 @@ const Main = () => {
      </Jump>
       <div className="flex gap-14 items-center mt-14 pb-2 sm:gap-7 sm:mt-7">
         <SolidButton text={"projects"} href="/#project"/>
-        <LightButton text={"Resume"} href={"/docs/mycv.pdf"} />
+        <LightButton text={"Resume"} href={"/docs/folukeOdusResume.pdf"} />
       </div>
       <div className="flex gap-14 pt-20 sm:pt-10 sm:px-4 sm:pb-6">
         <IconLink
