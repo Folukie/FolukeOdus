@@ -57,6 +57,7 @@ const Sidebar = ({ close, isOpen }) => {
               key={idx}
               href={item.link}
               className="cursor-pointer hover:opacity-80 transition-all hvr-wobble-vertical text-secondary"
+              onClick={close}
             >
               {item.title}
             </a>
